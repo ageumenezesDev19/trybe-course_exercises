@@ -77,4 +77,4 @@ mv backup2 backup
 
 ### Apague todos os arquivos que terminem em .txt .
 
-- skills.txt trybe2.txt
+- rm skills.txt trybe2.txt
