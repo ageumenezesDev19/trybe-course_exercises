@@ -2,7 +2,7 @@
 
 #### Como não dá para mostrar todos os prcessos que envolvem os exercícios relacionados ao git e o github, vou apenas mostrar os comandos que aprendí com uma breve descrição.
 
-###Git:
+### Git:
 
 - git init -> Inicia o git;
 - git add -> adiciona um determinado arquivo para a parte de Staging;
