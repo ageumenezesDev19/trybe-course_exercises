@@ -6,7 +6,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias Ã¡geis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web :white_check_mark:
+## Fundamentos do Desenvolvimento Web :hourglass_flowing_sand:
 
 ##### Bloco 1: Introdução - Unix & Shell :white_check_mark:
 
@@ -19,9 +19,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 2-2: _Entendendo os comandos_
 - [X] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3: Introdução - HTML & CSS :hourglass_flowing_sand:
 
-- [ ] 3-1: _HTML & CSS - Estruturas de pá¡gina_
+- [ ] 3-1: _HTML & CSS - Estruturas de pá¡gina_ :hourglass_flowing_sand:
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ ] 3-4: _HTML Semântico_
