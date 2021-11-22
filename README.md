@@ -1,6 +1,6 @@
 # trybe-course_exercises
 
-## Português 🇧🇷
+## Português 🇧🇷 
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ageu Menezes Costa](www.linkedin.com/in/ageu-menezes-costa-307852197)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
@@ -12,14 +12,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
+- [X] 1-3: _Unix & Shell- Part 1_
+- [X] 1-4: _Unix & Shell- Part 2_
 
 ##### Bloco 2: Git & GitHub
 
-- [ ] 2-1: _O que é e para que serve?_
-- [ ] 2-2: _Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
+- [X] 2-1: _O que é e para que serve?_
+- [X] 2-2: _Entendendo os comandos_
+- [X] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
@@ -270,14 +270,14 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 
 ##### Block 1: Introduction - Unix & Shell
 
-- [ ] 1-3: _Unix & Shell- Part 1_
-- [ ] 1-4: _Unix & Shell- Part 2_
+- [X] 1-3: _Unix & Shell- Part 1_
+- [X] 1-4: _Unix & Shell- Part 2_
 
 ##### Block 2: Git & GitHub
 
-- [ ] 2-1: _What is it and what is it for?_
-- [ ] 2-2: _Understanding the commands_
-- [ ] 2-3: _Internet - Understanding how it works_
+- [X] 2-1: _What is it and what is it for?_
+- [X] 2-2: _Understanding the commands_
+- [X] 2-3: _Internet - Understanding how it works_
 
 ##### Block 3: Introduction - HTML & CSS
 
