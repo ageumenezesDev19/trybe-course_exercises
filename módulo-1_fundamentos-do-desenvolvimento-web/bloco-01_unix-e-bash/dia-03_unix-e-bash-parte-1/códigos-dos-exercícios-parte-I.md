@@ -1,3 +1,5 @@
+## Português 🇧🇷 
+
 # Parte I - Criação de arquivos e diretórios:
 
 ## Dica : Para criação de arquivos vazios você pode utilizar o comando touch nome-do-arquivo.extensao .
@@ -76,5 +78,3 @@ mv backup2 backup
 - tail -4 skills.txt
 
 ### Apague todos os arquivos que terminem em .txt .
-
-- rm skills.txt trybe2.txt
