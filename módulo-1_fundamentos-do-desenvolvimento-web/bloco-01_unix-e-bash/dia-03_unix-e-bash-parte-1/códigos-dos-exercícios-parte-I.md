@@ -78,3 +78,84 @@ mv backup2 backup
 - tail -4 skills.txt
 
 ### Apague todos os arquivos que terminem em .txt .
+
+## English 🇺🇸
+
+# Part I - Creating files and directories:
+
+## Tip : For creating empty files you can use the command touch filename.extension .
+
+### Using the terminal, apply the create directories command you learned, create a directory called unix_tests and navigate to it.
+
+- mkdir unix_tests
+- unix_tests cd
+
+### Create a text file named trybe.txt .
+
+- touch trybe.txt
+
+### Create a copy of the trybe.txt file named trybe_backup.txt .
+
+- cp trybe.txt trybe_backup.txt
+
+### Rename the trybe.txt file.
+
+- mv trybe.txt trybe2.txt
+
+### Within unix_tests , create a new directory called backup .
+
+- mkdir backup
+
+### Move the trybe_backup.txt file to the backup directory.
+
+- mv trybe_backup.txt backup/
+
+### Within unix_tests , create a new directory called backup2 .
+
+- mkdir backup2
+
+### Move the trybe_backup.txt file from the backup folder to the backup2 folder.
+
+- mv backup/trybe_backup.txt backup2/
+
+### Delete the backup folder.
+
+- rmdir backup
+
+### Rename the backup2 folder to backup .
+
+mv backup2 backup
+
+### See the full path of the current directory and list all files within it.
+
+- pwd
+- ls *
+
+### Delete the backup directory.
+
+-rm -rf backup
+
+### Clean the terminal.
+
+- clear
+
+### For exercises 14 and 15, manually create, in the graphical part of your operating system (using the mouse), a text file with the contents below, called skills.txt :
+
+### Internet
+### Unix
+### Bash
+### HTML
+### CSS
+### JavaScript
+### React
+### SQL
+
+### Display the first 5 skills from the skills.txt file on the screen.
+
+- head -5 skills.txt
+
+### Display the last 4 skills from the skills.txt file on the screen.
+
+- tail -4 skills.txt
+
+### Delete all files ending in .txt .
