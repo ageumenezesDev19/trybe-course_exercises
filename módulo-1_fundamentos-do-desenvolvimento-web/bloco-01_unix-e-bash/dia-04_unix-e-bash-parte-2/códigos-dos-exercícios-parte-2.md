@@ -1,3 +1,5 @@
+## Português 🇧🇷 
+
 # Parte I - Comandos de Input e Output
 
 #### Navegue até a pasta unix_tests;
@@ -153,6 +155,164 @@ kill 19325 19179 19175
 
 - fortune | wc-l
 
-##### Execute o comando sudo apt-get install sl em um terminal Linux , ou brew install sl em um terminal macOS . Após a instalação, execute o comando sl . Agora tente sl -F ;
+##### Execute o comando sudo apt-get install sl em um terminal Linux , ou brew install sl em um terminal macOS . Após a instalação, execute o comando sl . Agora tente sl -F .
 
 
+## English 🇺🇸
+
+# Part I - Input and Output Commands
+
+#### Navigate to the unix_tests folder;
+
+- unix_tests cd
+
+#### Create a text file from the terminal named skills2.txt and add the Internet , Unix and Bash values, one on each line.
+
+- cat skills2.txt
+  Internet
+  Unix
+  bash
+- Ctrl + D
+
+#### Add 5 more items to your skill list and then print the sorted list on the terminal. 🤓
+
+- cat >> skills2.txt
+  Html
+  CSS
+  JavaScript
+  Node.js
+  Shall
+- Ctrl + D
+-cat skills2.txt| sort
+
+#### Count how many lines are in the skills2.txt file.
+
+- wc -l skills2.txt
+
+#### Create a file called top_skills.txt using skills2.txt , containing the first 3 skills in alphabetical order.
+
+-cat skills2.txt | head -3 | sort > top_skills.txt
+
+#### Create a new file called phrases2.txt by the terminal and add some phrases of your choice.
+
+- cat > phrases2.txt
+ This device contains atoms;
+ And Software;
+ And energy bro.
+
+#### Count the number of lines that contain the letters br.
+
+- grep 'br' phrases2.txt | toilet -l
+
+#### Count the number of lines that do not contain the letters br.
+
+-grep -v 'br' phrases2.txt | toilet -l
+
+#### Add two country names to the end of the phrases2.txt file.
+
+- cat >> phrases2.txt
+  Brazil
+  United States of Amarica
+
+#### Create a new file called bunch_of_things.txt with the contents of the phrases2.txt and countries.txt files
+
+- cat phrases2.txt countries.txt > bunch_of_things.txt
+
+#### Sort the bunch_of_things.txt file.
+
+- sort bunch_of_things.txt > organizer.txt
+- cat organizer.txt > bunch_of_things.txt
+- rm organizer.txt
+
+
+
+# Part II - Permissions
+
+#### Navigate to the unix_tests folder;
+
+- cd unix_texts/
+
+#### Run the command ls -l and see what file permissions are;
+
+-ls -l
+
+#### Change the permission of the bunch_of_things.txt file so that all users can have read and write access, and verify that it is correct with the command ls -l ;
+
+- chmod og+w bunch_of_things.txt
+-ls -l
+##### Expected result: -rw-rw-rw- 1 yr yr 1860 Aug 13 11:39 bunch_of_things.txt
+
+
+#### Take the bunch_of_things.txt file write permission for all users, check that it is correct with the command ls -l ;
+
+- chmod a-w bunch_of_things.txt
+##### Expected result: -r--r--r-- 1 yr yr 1860 Aug 13 11:39 bunch_of_things.txt
+
+#### Get the bunch_of_things.txt file permission back to the one listed initially using the chmod 644 bunch_of_things.txt command.
+
+- chmod 644 bunch_of_things.txt
+##### Expected result: -rw-r--r-- 1 yr yr 1860 Aug 13 11:39 bunch_of_things.txt
+
+
+
+# Part III - Processes & Jobs
+
+#### List all processes;
+
+- ps
+
+#### Now use the sleep 30 & ;
+
+- sleep 30 &
+
+#### Use the process listing to find the PID of the process executing the sleep 30 command and finish its execution;
+
+- kill 18998
+
+#### Run the sleep 30 command again, but now without the & . Then make it keep running in the background;
+
+- sleep 30
+- Ctrl + Z
+- bg %sleep
+
+#### Create a background process that runs the sleep command for 300 seconds.
+
+- sleep 300 &
+
+#### Create two more processes that run the sleep command for 200 and 100 seconds, respectively.
+##### You must foreground them (without using the & ) and suspend them (by pressing ctrl+z ) after each one starts executing.
+
+- sleep 200
+- sleep 100
+
+#### Check that only the sleep 300 process is running with the jobs command. Suspend the execution of this process.
+##### You will need to bring the process to foreground ( fg ) and suspend it ( ctrl+z ), or send a signal.
+
+- jobs
+- fg %sleep\ 300
+- ctrl + Z
+
+#### Resume execution of the sleep 100 process in the background with the bg command.
+
+- bg %sleep\ 100
+
+#### Terminate execution of all sleep processes.
+
+kill 19325 19179 19175
+
+
+# (Bonus) - Part IV - Terminal Awakening
+
+##### And to finish with the energy, look up there, how about learning some fun Unix commands now? ☝
+
+##### If you use Linux , open the terminal and run the command sudo apt-get install cmatrix , or for people using macOS , use in the terminal brew install cmatrix . Then run the cmatrix command. When you're feeling like Neo , press ctrl+c to go back to the terminal;
+
+##### On a Linux system, run the command sudo apt-get install fortune , or on macOS brew install fortune , and after installation, create a text file called fortune.txt that contains your luck of the day. Use only one command line. Tip: use the fortune command, and the > operator;
+
+- fortune > fortune.txt
+
+##### Count how many words are in your lucky phrase for the day. Tip: use the wc command;
+
+- fortune | toilet-l
+
+##### Run the command sudo apt-get install sl from a Linux terminal, or brew install sl from a macOS terminal. After installation, run the sl command. Now try sl -F .
