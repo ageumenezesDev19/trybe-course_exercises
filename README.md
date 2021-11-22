@@ -4,13 +4,13 @@
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ageu Menezes Costa](www.linkedin.com/in/ageu-menezes-costa-307852197)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
-_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa sÃ³ paga quando conseguir um bom trabalho."_
+_"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
-O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introduÃ§Ã£o ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias Ã¡geis e habilidades comportamentais.
+O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias ágeis e habilidades comportamentais.
 
 ## Fundamentos do Desenvolvimento Web :white_check_mark:
 
-##### Bloco 1: IntroduÃ§Ã£o - Unix & Shell
+##### Bloco 1: Introdução - Unix & Shell
 
 - [ ] 1-3: _Unix & Shell- Part 1_
 - [ ] 1-4: _Unix & Shell- Part 2_
@@ -21,23 +21,23 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 2-2: _Entendendo os comandos_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: IntroduÃ§Ã£o - HTML & CSS
+##### Bloco 3: Introdução - HTML & CSS
 
-- [ ] 3-1: _HTML & CSS - Estruturas de pÃ¡gina_
+- [ ] 3-1: _HTML & CSS - Estruturas de página_
 - [ ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ ] 3-4: _HTML SemÃ¢ntico_
+- [ ] 3-4: _HTML Semântico_
 - [ ] 3-5: _[Projeto - HTML & CSS]()_
 
-##### Bloco 4: IntroduÃ§Ã£o - JavaScript
+##### Bloco 4: Introdução - JavaScript
 
 - [ ] 4-1: _JavaScript - Primeiros passos_
 - [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - LÃ³gica de ProgramaÃ§Ã£o e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funÃ§Ãµes_
+- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ ] 4-4: _JavaScript - Objetos e funções_
 - [ ] 4-5: _[Projeto - Playground Functions]()_
 
-##### Bloco 5: IntroduÃ§Ã£o - JavaScript - Projetos
+##### Bloco 5: Introdução - JavaScript - Projetos
 
 - [ ] 5-1: _JavaScript - DOM e seletores_
 - [ ] 5-2: _JavaScript - Trabalhando com elementos_
@@ -58,11 +58,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 6-5: _CSS Responsivo - Mobile First_
 - [ ] 6-6: _[Projeto - PÃ¡gina inicial do Facebook]()_
 
-##### Bloco 7: JavaScript ES6 & Testes UnitÃ¡rios
+##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _Testes unitÃ¡rios em JavaScript_
+- [ ] 7-3: _Testes unitários em JavaScript_
 - [ ] 7-4: _[Projeto - JavaScript Testes UnitÃ¡rios]()_
 
 ##### Bloco 8: JavaScript ES6
@@ -82,13 +82,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 10: Jest
 
 - [ ] 10-1: _Primeiros passos no Jest_
-- [ ] 10-2: _Jest - Testes AssÃ­ncronos_
+- [ ] 10-2: _Jest - Testes Assíncronos_
 - [ ] 10-3: _Jest - Simulando comportamentos_
-- [ ] 10-4: _[Projeto - Jest AssÃ­ncrono e Mocking]()_
+- [ ] 10-4: _[Projeto - Jest Assí­ncrono e Mocking]()_
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 11: IntroduÃ§Ã£o - React
+##### Bloco 11: Introdução - React
 
 - [ ] 11-1: _'Hello, world!' no React!_
 - [ ] 11-2: _Componentes React_
@@ -97,7 +97,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 12: React
 
 - [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulÃ¡rios no React_
+- [ ] 12-2: _Eventos e formulários no React_
 - [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
 
 ##### Bloco 13: React
@@ -107,9 +107,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 13-3: _React Router_
 - [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
 
-##### Bloco 14: Metodologias Ãgeis
+##### Bloco 14: Metodologias Ágeis
 
-- [ ] 14-1: _Metodologias Ãgeis_
+- [ ] 14-1: _Metodologias Ágeis_
 - [ ] 14-2: _[Projeto - Frontend Online Store]()_
 
 ##### Bloco 15: Testes em React
@@ -118,13 +118,13 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 15-2: _Testando React com a React Testing Library - Parte 2_
 - [ ] 15-3: _[Projeto - Testes em React]()_
 
-##### Bloco 16: IntroduÃ§Ã£o ao Redux
+##### Bloco 16: Introduçaão ao Redux
 
-- [ ] 16-1: _IntroduÃ§Ã£o ao Redux_
+- [ ] 16-1: _Introdução ao Redux_
 - [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - PrÃ¡tica_
+- [ ] 16-3: _React com Redux - Prática_
 - [ ] 16-4: _React com Redux - Parte 2_
-- [ ] 16-5: _Testes sÃ­ncronos com React-Redux_
+- [ ] 16-5: _Testes sí­ncronos com React-Redux_
 - [ ] 16-6: _[Projeto - Tabela com filtros de dados]()_
 
 ##### Bloco 17: Projeto React
@@ -144,17 +144,17 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: IntroduÃ§Ã£o - Bancos de dados relacionais
+##### Bloco 20: Introdução - Bancos de dados relacionais
 
 - [ ] 20-1: _Banco de dados SQL_
 - [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
+- [ ] 20-3: _Filtrando dados de forma especí­fica_
 - [ ] 20-4: _Manipulando tabelas_
 - [ ] 20-5: _[Projeto - All For One]()_
 
 ##### Bloco 21: Bancos de dados relacionais
 
-- [ ] 21-1: _FunÃ§Ãµes mais usadas no SQL_
+- [ ] 21-1: _Funções mais usadas no SQL_
 - [ ] 21-2: _Descomplicando JOINs e UNIONs_
 - [ ] 21-3: _Stored Routines & Subqueries_
 - [ ] 21-4: _[Projeto - Vocabulary Booster]()_
@@ -162,11 +162,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 ##### Bloco 22: Bancos de dados relacionais
 
 - [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _NormalizaÃ§Ã£o, Formas Normais e Dumps_
+- [ ] 22-2: _Normalização, Formas Normais e Dumps_
 - [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
 - [ ] 22-3: _[Projeto - One For All]()_
 
-##### Bloco 23: IntroduÃ§Ã£o - NoSQL
+##### Bloco 23: Introdução - NoSQL
 
 - [ ] 23-1: _MongoDB - IntroduÃ§Ã£o_
 - [ ] 23-2: _Filter Operators_
@@ -187,20 +187,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 26: Intro - NodeJS
 
-- [ ] 26-1: _NodeJS - IntroduÃ§Ã£o_
-- [ ] 26-2: _NodeJS - Fluxo AssÃ­ncrono_
+- [ ] 26-1: _NodeJS - Introdução_
+- [ ] 26-2: _NodeJS - Fluxo Assí­ncrono_
 - [ ] 26-3: _NodeJS - Arquitetura_
 - [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
 
 ##### Bloco 27: NodeJS
 
 - [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - IntroduÃ§Ã£o ao MVC_
+- [ ] 27-2: _Arquitetura de Software - Introdução ao MVC_
 - [ ] 27-3: _[Projeto - Cookmaster]()_
 
 ##### Bloco 28: NodeJS
 
-- [ ] 28-1: _Arquitetura de Software - Camada de ServiÃ§o_
+- [ ] 28-1: _Arquitetura de Software - Camada de Serviço_
 - [ ] 28-2: _Arquitetura web - Rest e Restful_
 - [ ] 28-3: _[Projeto - Store Manager]()_
 
@@ -210,7 +210,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
 - [ ] 29-3: _[Projeto - Cookmaster V2]()_
 
-##### Bloco 30: IntroduÃ§Ã£o - Deploy
+##### Bloco 30: Introdução - Deploy
 
 - [ ] 30-1: _Infraestrutura - Deploy com Heroku_
 - [ ] 30-2: _Deploy - Gerenciadores de Processos_
@@ -222,10 +222,10 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 32: Arquitetura de Software
 
-- [ ] 32-1: _Arquitetura - PrincÃ­pios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicaÃ§Ã£o com o banco de dados_
+- [ ] 32-1: _Arquitetura - Princípios SOLID_
+- [ ] 32-2: _ORM - Interface da aplicação com o banco de dados_
 - [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas prÃ¡ticas na escrita de testes_
+- [ ] 32-4: _Boas prá¡ticas na escrita de testes_
 - [ ] 32-3: _[Projeto - API de Blogs]()_
 
 ##### Bloco 33: Sockets
@@ -238,21 +238,21 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 34-1: _[Projeto - Trybeer V2]()_
 
-## CiÃªncia da ComputaÃ§Ã£o :hourglass_flowing_sand:
+## Ciência da Computação :hourglass_flowing_sand:
 
-##### Bloco 35: IntroduÃ§Ã£o - CiÃªncia da ComputaÃ§Ã£o
+##### Bloco 35: Introdução - Ciência da Computação
 
 - [ ] 35-1: _Arquitetura de Computadores_
 - [ ] 35-2: _Arquitetura de redes_
-- [ ] 35-3: _Redes de computadores, ferramentas e seguranÃ§a_
+- [ ] 35-3: _Redes de computadores, ferramentas e segurança_
 - [ ] 35-4: _[Projeto - Explorando os protocolos]()_
 
 ##### Bloco 36: Python
 
 - [ ] 35-1: _Aprendendo Python_
-- [ ] 35-2: _Testes e ExceÃ§Ãµes_
-- [ ] 35-3: _Entrada e SaÃ­da de dados_
-- [ ] 36-4: _Entrada e SaÃ­da de dados_
+- [ ] 35-2: _Testes e Exceções_
+- [ ] 35-3: _Entrada e Saída de dados_
+- [ ] 36-4: _Entrada e Saí­da de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
@@ -399,3 +399,118 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 ##### Block 19: Front-end Final Project
 
 - [ ] 19-1: _[Project - Recipe App]()_
+
+## Back-end Development :hourglass_flowing_sand:
+
+##### Block 20: Introduction - Relational Databases
+
+- [ ] 20-1: _SQL Database_
+- [ ] 20-2: _Finding data in a database_
+- [ ] 20-3: _Filtering data specifically_
+- [ ] 20-4: _Manipulating tables_
+- [ ] 20-5: _[Project - All For One]()_
+
+##### Block 21: Relational Databases
+
+- [ ] 21-1: _Most used functions in SQL_
+- [ ] 21-2: _Uncomplicating JOINs and UNIONs_
+- [ ] 21-3: _Stored Routines & Subqueries_
+- [ ] 21-4: _[Project - Vocabulary Booster]()_
+
+##### Block 22: Relational Databases
+
+- [ ] 22-1: _Transforming ideas into a database model_
+- [ ] 22-2: _Normalization, Normal Forms and Dumps_
+- [ ] 22-2: _Turning ideas into a database model - Part 2_
+- [ ] 22-3: _[Project - One For All]()_
+
+##### Block 23: Introduction - NoSQL
+
+- [ ] 23-1: _MongoDB - Introduction_
+- [ ] 23-2: _Filter Operators_
+- [ ] 23-3: _[Project - Date Flights]()_
+
+##### Block 24: Updates
+
+- [ ] 24-1: _Simple Updates_
+- [ ] 24-2: _Complex Updates - Arrays - Part 1_
+- [ ] 24-3: _Complex Updates - Arrays - Part 2_
+- [ ] 24-4: _[Project - Commerce]()_
+
+##### Block 25: Aggregation Framework
+
+- [ ] 25-1: _Aggregation Framework - Part 1_
+- [ ] 25-2: _Aggregation Framework - Part 2_
+- [ ] 25-3: _[Project - Aggregations]()_
+
+##### Block 26: Intro - NodeJS
+
+- [ ] 26-1: _NodeJS - Introduction_
+- [ ] 26-2: _NodeJS - Asynchronous Stream_
+- [ ] 26-3: _NodeJS - Architecture_
+- [ ] 26-4: _[Project - A CLI of Ice and Fire]()_
+
+##### Block 27: NodeJS
+
+- [ ] 27-1: _Express: HTTP with Node.js_
+- [ ] 27-2: _Software Architecture - Introduction to MVC_
+- [ ] 27-3: _[Project - Cookmaster]()_
+
+##### Block 28: NodeJS
+
+- [ ] 28-1: _Software Architecture - Service Layer_
+- [ ] 28-2: _Web Architecture - Rest and Restful_
+- [ ] 28-3: _[Project - Store Manager]()_
+
+##### Block 29: NodeJS
+
+- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
+- [ ] 29-2: _NodeJS - Upload files with Multer_
+- [ ] 29-3: _[Project - Cookmaster V2]()_
+
+##### Block 30: Introduction - Deploy
+
+- [ ] 30-1: _Infrastructure - Deploy with Heroku_
+- [ ] 30-2: _Deploy - Process Managers_
+- [ ] 30-3: _[Project - Stranger Things]()_
+
+##### Block 31: Project
+
+- [ ] 31-1: _[Project - Trybeer]()_
+
+##### Block 32: Software Architecture
+
+- [ ] 32-1: _Architecture - SOLID Principles_
+- [ ] 32-2: _ORM - Application interface with the database_
+- [ ] 32-3: _Software Architecture - DDD_
+- [ ] 32-4: _Good practice writing tests_
+- [ ] 32-3: _[Project - Blogs API]()_
+
+##### Block 33: Sockets
+
+- [ ] 30-1: _Sockets - TCP/UDP & NET_
+- [ ] 30-2: _Sockets - Socket.io_
+- [ ] 30-3: _[Project - Webchat]()_
+
+##### Block 34: Project
+
+- [ ] 34-1: _[Project - Trybeer V2]()_
+
+## Computer Science :hourglass_flowing_sand:
+
+##### Block 35: Introduction - Computer Science
+
+- [ ] 35-1: _Computer Architecture_
+- [ ] 35-2: _Network architecture_
+- [ ] 35-3: _Computer networks, tools and security_
+- [ ] 35-4: _[Project - Exploring the protocols]()_
+
+##### Block 36: Python
+
+- [ ] 35-1: _Learning Python_
+- [ ] 35-2: _Tests and Exceptions_
+- [ ] 35-3: _Data Input and Output_
+- [ ] 36-4: _Data Input and Output_
+- [ ] 35-5: _[Project - Tech news]()_
+
+# [...]
