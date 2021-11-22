@@ -1,6 +1,6 @@
 # trybe-course_exercises
 
-## Português 🇧🇷
+## Português 🇧🇷 
 
 Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Ageu Menezes Costa](www.linkedin.com/in/ageu-menezes-costa-307852197)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
 
