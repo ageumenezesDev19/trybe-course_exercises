@@ -1,0 +1,34 @@
+div:hover {
+    background-color: aqua;
+}
+div {
+    padding: 0.001%;
+}
+.cor-primária {
+    color: rgb(197, 154, 98);
+}
+.cor-secundária {
+    color: rgb(16, 104, 104);
+}
+.cor-complementar {
+    color: blue;
+}
+.cor-escura {
+    color: rgb(116, 0, 0);
+}
+.cor-clara {
+    color: rgb(153, 255, 0);
+}
+.cor-clara:hover{
+    color: white;
+}
+
+h3:active {
+    color: rgb(255, 255, 255);
+}
+.div-maior {
+    font-size: larger;
+}
+h3 {
+    font-style: italic;
+}
