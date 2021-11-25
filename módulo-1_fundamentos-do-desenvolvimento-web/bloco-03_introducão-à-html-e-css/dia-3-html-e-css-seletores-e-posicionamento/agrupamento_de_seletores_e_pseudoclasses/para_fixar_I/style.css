@@ -1,0 +1,24 @@
+h1, p {
+    text-align: center;
+}
+ol {
+    padding-left: 37.5%;
+}
+
+li {
+    padding: 1%;
+    margin-right: 57.5%;
+}
+
+ol {
+    background-color: aquamarine;
+    width: 26.5%;
+}
+
+li:hover {
+    background-color: green;
+    color: coral;
+}
+li:active {
+    color: white;
+}
