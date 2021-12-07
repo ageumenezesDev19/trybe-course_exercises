@@ -1,6 +1,6 @@
 ## Português 🇧🇷
 
-### Nesta terceira parte da minha jornada através do HTML & CSS, eu vai aprendi na prática como alterar o layout da página utilizando o CSS, assim como utilizar regras de seleção bem definidas para escolher exatamente o tipo de elemento que quero estilizar
+### Nesta terceira parte da minha jornada através do HTML & CSS, eu vou aprender na prática como alterar o layout da página utilizando o CSS, assim como utilizar regras de seleção bem definidas para escolher exatamente o tipo de elemento que quero estilizar.
 
 - Compreendi como funciona o Box Model do CSS e como os elementos da página se relacionam visualmente;
 - Posicionei elementos na página de diferentes formas;
