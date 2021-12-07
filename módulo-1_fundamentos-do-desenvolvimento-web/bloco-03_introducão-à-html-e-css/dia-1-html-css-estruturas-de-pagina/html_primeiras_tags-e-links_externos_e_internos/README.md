@@ -2,7 +2,7 @@
 
 # Primeiras Tags
 
-##### O foco desse exercício servio para a fixação do conteúdo estudado sobre html.
+##### O foco aqui é a fixação do conteúdo estudado sobre html.
 ##### Para isso, eu criei um arquivo chamado index.html e armazenei o segunte código:
 
 <!DOCTYPE html>
