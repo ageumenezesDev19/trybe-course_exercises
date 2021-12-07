@@ -5,7 +5,8 @@
 ##### O foco aqui é a fixação do conteúdo estudado sobre html.
 ##### Para isso, eu criei um arquivo chamado index.html e armazenei o segunte código:
 
-<!DOCTYPE html>
+```HTML
+<DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
@@ -15,6 +16,7 @@
     <h1>Exercícios</h1>
   </body>
 </html>
+```
 
 ##### Então segui as orientações do exercício.
 
@@ -33,6 +35,7 @@
 ##### The focus of this exercise is for the fixation of the studied content about html.
 ##### For that, I created a file called index.html and stored the following code:
 
+```HTML
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -43,6 +46,7 @@
      <h1>Exercises</h1>
    </body>
 </html>
+```
 
 ##### So I followed the exercise guidelines.
 
