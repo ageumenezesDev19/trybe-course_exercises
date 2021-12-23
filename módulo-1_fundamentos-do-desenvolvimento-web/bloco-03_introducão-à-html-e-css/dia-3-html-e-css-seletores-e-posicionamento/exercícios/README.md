@@ -17,10 +17,17 @@ Meu Portfólio Web deve ter um layout usando Box Model com as informações a se
 
 1. Colocar o meu nome, minha foto e a descrição que eu escrevi sobre mim dentro de blocos;
 2. A descrição deve ficar ao lado da foto;
-3. Centralizar meu nome na página;
+3. Centralizar meu nome na página (Nesse caso não ficou legal então eu centralizei na minha foto);
 4. Usar padding e colocar uma cor de fundo na minha foto que seja diferente da cor de fundo do resto da página;
 5. Adicionar margin e padding nos elementos que eu julgar necessário;
-6. Colocar estilos somente nos itens ímpares da lista das minhas habilidades.
+6. Colocar estilos somente nos itens ímpares da lista das minhas habilidades (Coloquei oma borda específica para isso).
+
+#### Fiz tudo isso e adicionei outras comisas como:
+
+- Defini uma cor de background para o article;
+- Adicionei links internos usando ícones de setas.
+
+#
 
 ## English 🇺🇸
 
@@ -41,7 +48,12 @@ My Web Portfolio should have a layout using Box Model with the following informa
 
 1. Put my name, my photo and the description I wrote about me inside blocks;
 2. The description must be next to the photo;
-3. Center my name on the page;
+3. Center my name on the page (In this case it didn't look good so I centered it on my photo);
 4. Use padding and put a background color on my photo that is different from the background color on the rest of the page;
 5. Add margin and padding to the elements I deem necessary;
-6. Put styles only on the odd items on the list of my skills.
+6. Put styles only on odd items in my skills list (I put a specific border for that).
+
+#### I did all this and added other things like:
+
+- Defined a background color for the article;
+- Added internal links using arrow icons.
