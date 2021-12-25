@@ -1,3 +1,4 @@
+## Português 🇧🇷 
 # Exercício de fixação:
 
 ### Para realizar o exercício, li atentamente o enunciado. Após entender o que foi pedido, desenvi a solução e então verifiquei se eu conseguiu cumprir com o que foi solicitado.
@@ -79,3 +80,85 @@
 <div>
     <img src="https://s3.us-east-2.amazonaws.com/assets.app.betrybe.com/fundamentals/html-css/images/podium-final-fdcdc425aade8216b9e3c4b0eab234fc.png" alt="Hackathon Results">
 </div>
+
+## English 🇺🇸
+# Fixation exercise:
+
+### To perform the exercise, read the statement carefully. After understanding what was asked, I developed the solution and then verified if I managed to comply with what was asked.
+
+- To perform this exercise I copied the HTML code below. I then implemented the CSS properties and, when necessary, made additions to the existing HTML structure so that the end result is similar to the reference image. I had to keep in mind that the page structure must be maintained so that the code semantics are preserved.
+
+
+###### index.html
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 200px;
+      }
+
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+      }
+
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hackathon Results</h1>
+    </header>
+    <section>
+      <ul>
+        <li class="first">1st - Team 1</li>
+        <li class="second">2nd - Team 2</li>
+        <li class="third">3rd - Team 3</li>
+      </ul>
+    </section>
+    <section>
+      <h3>First Place Awards:</h3>
+      <ul>
+        <li>| R$1000.00 per team member |</li>
+        <li>| 2-month bootcamp with possibility of hiring |</li>
+      </ul>
+      <h3>Second Place Awards:</h3>
+      <ul>
+        <li>| BRL 600.00 per team member |</li>
+        <li>| Participation in the selection process for Bootcamp |</li>
+      </ul>
+      <h3>Third Place Awards:</h3>
+      <ul>
+        <li>| BRL 300.00 per team member |</li>
+        <li>| Participation in the selection process for Bootcamp |</li>
+      </ul>
+    </section>
+  </body>
+</html>
+```
+
+###### *The image isn't available in English.
