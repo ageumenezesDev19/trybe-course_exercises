@@ -21,7 +21,7 @@ body {
 }
 
 strong {
-    color: rgb(255, 0, 98);
+    color: rgb(255, 136, 0);
 }
 
 #name-stomatopoda {
@@ -92,7 +92,7 @@ nav {
 }
 
 .backgraund_2 {
-    background-color: rgb(88, 88, 88);
+    background-color: rgb(59, 59, 59);
     position: relative;
     width: 70%;
     left: 50%;
@@ -174,7 +174,7 @@ table {
 }
 
 caption {
-    background-color: rgb(255, 0, 106);
+    background-color: rgb(206, 0, 86);
     border: 2px black solid;
     padding: 1%;
     border-radius: 10px;
