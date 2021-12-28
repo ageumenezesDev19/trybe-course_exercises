@@ -17,7 +17,7 @@ body {
     padding-bottom: 0.9%;
     background-color: rgb(15, 141, 135);
     width: 100%;
-    z-index: 3;
+    z-index: 4;
 }
 
 #name-stomatopoda {
@@ -39,7 +39,7 @@ nav {
     padding-top: 5%;
     padding-bottom: 1.2%;
     margin-top: -3.75%;
-    z-index: 2;
+    z-index: 3;
     font-family: fantasy;
     font-size: 180%;
 }
@@ -139,7 +139,7 @@ p {
     padding-right: 0.5%;
     padding-top: -1%;
     padding-bottom: -1%;
-    z-index: 1;
+    z-index: 2;
 }
 
 #vídeo-do-youtube:hover {
