@@ -20,6 +20,10 @@ body {
     z-index: 4;
 }
 
+strong {
+    color: rgb(255, 0, 98);
+}
+
 #name-stomatopoda {
     color: rgb(2, 255, 179);
 }
@@ -262,3 +266,4 @@ footer {
     transform: translateX(-48%);
     margin-top: 0.5%;
 }
+
