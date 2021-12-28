@@ -55,6 +55,8 @@ As outras seções dizem respeito aos fatos interessantes que você escolheu ace
 
 ##### Obs: para esse exercício, foi dado como obrigatório fazer uso de, no mínimo , 6 elementos com as seguintes tags: <strong style="color: rgb(199, 21, 95);">header , nav , article , section , h1 , h2 , h3, aside , footer , table e img</strong>.
 
+### Depois de terminar de seguir todas as instruções e fazer o site com uma boa estilização, foi a hora de validar o site para ver se era acessível para pessoas com deficiência visual e outras. Ao fazer isso utilizando o CodeSniffer e o Lighthouse, percebi que havia alguns pequenos erros, então os corrigi e deixei o site 100% no requisito da acessibilidade.
+
 #
 
 ## English 🇺🇸
@@ -114,3 +116,5 @@ The other sections concern the interesting facts you have chosen about the anima
 ```"Content compiled by <insert my name>, <current year>".```
 
 ##### Note: for this exercise, it was mandatory to use at least 6 elements with the following tags: <strong style="color: rgb(199, 21, 95);">header , nav , article , section , h1 , h2 , h3, aside , footer , table and img</strong>.
+
+### After I finished following all the instructions and made the site look good, it was time to validate the site to see if it was accessible to people with visual impairments and others. When doing this using CodeSniffer and Lighthouse, I noticed there were some minor bugs, so I fixed them and left the site 100% accessibility requirement.
