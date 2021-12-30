@@ -12,7 +12,7 @@
 
 - Entender a diferença entre elementos de bloco e elementos inline .
 
-Esso é importante porque, saber aplicar elementos HTML de acordo com o sentido e o propósito que cada um deles carrega, além de reforçar a minha capacidade para modelagem de um problema, resulta em páginas melhor ranqueadas em motores de busca (e.g. Google) e mais acessíveis.
+Isso é importante porque, saber aplicar elementos HTML de acordo com o sentido e o propósito que cada um deles carrega, além de reforçar a minha capacidade para modelagem de um problema, resulta em páginas melhor ranqueadas em motores de busca (e.g. Google) e mais acessíveis.
 
 ## English 🇺🇸
 
