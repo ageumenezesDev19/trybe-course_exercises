@@ -1,4 +1,21 @@
 //Operador AND:
+const comida = 'pão na chapa';
+const bebida = 'leite';
+
+if (bebida === 'cafézinho' && comida === 'pão na chapa') {
+  console.log('Muito obrigado pela refeição :)');
+} else {
+  console.log('Acho que houve um engano com meu pedido'); // -> Acho que houve um engano com meu pedido
+}
+//------------------------------
+
+const conditionOne = true;
+  const conditionTwo = false;
+
+  console.log(conditionOne && conditionTwo); // -> false
+
+//------------------------------
+
 const currentHour = 15;
 let message;
 if (currentHour >= 22) {
