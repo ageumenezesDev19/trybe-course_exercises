@@ -94,3 +94,93 @@ switch (peçaDeXadrez.toLowerCase()) {
 //.toLowerCase() -> Fonte:https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase.
 
 //7
+let grade = 4;
+if (grade >= 90 && grade <= 100) {
+    console.log("Grade = A");
+} else if (grade >= 80 && grade < 90) {
+    console.log("Grade = B");
+} else if (grade >= 70 && grade < 80) {
+    console.log("Grade = C");
+} else if (grade >= 60 && grade < 70) {
+    console.log("Grade = D")
+} else if (grade >= 50 && grade < 60) {
+    console.log("Grade = E")
+} else if (grade < 50 && grade >= 0) {
+    console.log("Grade = F");
+} else {
+    console.log("ERROR! Invalid data. Please enter numbers from 0 to 100 and try again.");
+}
+
+//8
+const contN1 = 3;
+const contN2 = 5;
+const contN3 = 10;
+
+if (contN1 % 2 == 0 || contN2 % 2 == 0 || contN3 % 2 == 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+//9
+const contNi1 = 3;
+const contNi2 = 50;
+const contNi3 = 10;
+
+if (contNi1 % 2 != 0 || contNi2 % 2 != 0 || contNi3 % 2 != 0) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+//10
+const custo = 2000;
+const valor = 3000;
+
+let lucro = valor - (custo + (custo * (20 / 100)));
+
+console.log("Lucro = R$" + lucro);
+
+//11
+let salarioBruto = 90000;
+let inss;
+let ir;
+let alicota;
+
+if (salarioBruto <= 1556.94 && salarioBruto > 0) {
+    alicota = (8 / 100);
+    inss = salarioBruto * alicota;
+} else if (salarioBruto >= 1556.95 && salarioBruto <= 2594.92) {
+    alicota = (9 / 100);
+    inss = salarioBruto * alicota;
+} else if (salarioBruto >= 2594.93 && salarioBruto <= 5189.82) {
+    alicota = (11 / 100)
+    inss = salarioBruto * alicota;
+} else if (salarioBruto > 5189.82) {
+    alicota = 570.88;
+    inss = alicota;
+} else {
+    console.log("ERROR! Invalid data!")
+}
+
+let salarioBase = salarioBruto - inss; 
+
+if (salarioBase <= 1903,98) {
+    ir = 0;
+} else if (salarioBase >= 1903.99 && salarioBase <= 2826.65) {
+    ir = (salarioBase * (7.5 / 100)) - 142.80;
+} else if (salarioBase >= 2826.66 && salarioBase <= 3751.05) {
+    ir = (salarioBase * (15 / 100)) - 354.80;
+} else if (salarioBase >= 3751.06 && salarioBase <= 4664.68) {
+    ir = (salarioBase * (22.5 / 100)) - 636.13;
+} else if (salarioBase > 4664.68) {
+    ir = (salarioBase * (27.5 / 100)) - 869.36;
+}
+
+let salarioLiquido = salarioBase - ir;
+
+if (salarioLiquido > 0) {
+    console.log("O salário líquido é de R$" + salarioLiquido);
+} else {
+    console.log("Please enter valid values.");
+}
