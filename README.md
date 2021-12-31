@@ -86,7 +86,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assí­ncrono e Mocking]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end
 
 ##### Bloco 11: Introdução - React
 
@@ -344,7 +344,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 10-3: _Jest - Simulating behavior_
 - [ ] 10-4: _[Project - Asynchronous Jest and Mocking]()_
 
-## Front-end development :hourglass_flowing_sand:
+## Front-end development
 
 ##### Block 11: Introduction - React
 
