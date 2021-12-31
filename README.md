@@ -252,7 +252,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Testes e Exceções_
 - [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saí­da de dados_
+- [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
@@ -268,34 +268,34 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 
 ## Web Development Fundamentals :white_check_mark:
 
-##### Block 1: Introduction - Unix & Shell
+##### Block 1: Introduction - Unix & Shell :white_check_mark:
 
 - [X] 1-3: _Unix & Shell- Part 1_
 - [X] 1-4: _Unix & Shell- Part 2_
 
-##### Block 2: Git & GitHub
+##### Block 2: Git & GitHub :white_check_mark:
 
 - [X] 2-1: _What is it and what is it for?_
 - [X] 2-2: _Understanding the commands_
 - [X] 2-3: _Internet - Understanding how it works_
 
-##### Block 3: Introduction - HTML & CSS
+##### Block 3: Introduction - HTML & CSS :white_check_mark:
 
-- [ ] 3-1: _HTML & CSS - Page Structures_
-- [ ] 3-2: _HTML & CSS - Getting Started with CSS_
-- [ ] 3-3: _HTML & CSS - Selectors and positioning_
-- [ ] 3-4: _Semantic HTML_
-- [ ] 3-5: _[Project - HTML & CSS]()_
+- [X] 3-1: _HTML & CSS - Page Structures_
+- [X] 3-2: _HTML & CSS - Getting Started with CSS_
+- [X] 3-3: _HTML & CSS - Selectors and positioning_
+- [X] 3-4: _Semantic HTML_
+- [X] 3-5: _[Project - HTML & CSS]()_
 
-##### Block 4: Introduction - JavaScript
+##### Block 4: Introduction - JavaScript :hourglass_flowing_sand:
 
-- [ ] 4-1: _JavaScript - First steps_
+- [X] 4-1: _JavaScript - First steps_
 - [ ] 4-2: _JavaScript - Array and For_ loop
 - [ ] 4-3: _JavaScript - Programming Logic and Algorithms_
 - [ ] 4-4: _JavaScript - Objects and Functions_
 - [ ] 4-5: _[Project - Playground Functions]()_
 
-##### Block 5: Introduction - JavaScript - Projects
+##### Block 5: Introduction - JavaScript - Projects :hourglass_flowing_sand:
 
 - [ ] 5-1: _JavaScript - DOM and selectors_
 - [ ] 5-2: _JavaScript - Working with elements_
