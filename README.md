@@ -268,7 +268,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 
 ## Web Development Fundamentals :white_check_mark:
 
-##### Block 1: Introduction - Unix & Shell :white_check_mark:
+##### Block 1: Introduction - Unix & Shell :hourglass_flowing_sand:
 
 - [X] 1-3: _Unix & Shell- Part 1_
 - [X] 1-4: _Unix & Shell- Part 2_
