@@ -44,14 +44,62 @@ if (media > 20) {
 //5
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let grater = 0;
-for (i = 0; i < numbers.length; i += 1); {
-    for (i2 = numbers.length - 1; i2 <= numbers.length -1 && i2 >= 0; i2 -= 1) {
-        if (numbers[i2] > numbers[i]) {
-            grater.push(numbers[i2])
+
+for (let i = 0; i < numbers.length; i += 1) {
+    for (let n = 0; n < numbers.length; n += 1) {
+        if (numbers[i] > numbers[n] && numbers[i] > grater) {
+            grater = numbers[i];
         }
     }
 }
 
-console.log(grater);
-// Código inacabado, terminarei depois... (Que eu achar uma solução);
-// Unfinished code, I'll finish later... (When I find a solution);
+console.log("O maior número é: " + grater);
+
+//6
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let nImpares = [];
+let nOfNumbersI;
+
+for (let i = 0; i < numbers.length; i += 1) {
+    if (numbers[i] % 2 != 0) {
+        nImpares.push(numbers[i]);
+    }
+}
+
+nOfNumbersI = nImpares.length;
+console.log("Quantidade de números impares: " + nOfNumbersI + ".");
+
+//7
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let smaller = numbers[0];
+
+for (let i = 0; i < numbers.length; i += 1) {
+    for (let n = 0; n < numbers.length; n += 1) {
+        if (numbers[i] < numbers[n] && numbers[i] < smaller) {
+            smaller = numbers[i];
+        }
+    }
+}
+
+console.log("O menor número é: " + smaller);
+
+//8
+let array1 = [];
+for (let i = 1; i <= 25 && i >= 1; i += 1) {
+    array1.push(" " + i);
+}
+
+console.log("O array é:" + array1 + ".");
+
+//9
+let array1 = [];
+for (let i = 1; i <= 25 && i >= 1; i += 1) {
+    array1.push(i);
+}
+
+let divArray = [];
+for (let i2 = 0; i2 < array1.length; i2 += 1) {
+    divArray.push(" " + array1[i2] / 2);
+} 
+
+console.log("Resultado da Divisão dos itens do Array =" + divArray + ".");
