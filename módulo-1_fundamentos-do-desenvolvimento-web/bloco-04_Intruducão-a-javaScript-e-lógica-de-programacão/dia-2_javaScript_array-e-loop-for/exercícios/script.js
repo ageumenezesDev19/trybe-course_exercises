@@ -103,3 +103,11 @@ for (let i2 = 0; i2 < array1.length; i2 += 1) {
 } 
 
 console.log("Resultado da Divisão dos itens do Array =" + divArray + ".");
+
+/* Bonos */
+
+//1
+
+//2
+
+//3
