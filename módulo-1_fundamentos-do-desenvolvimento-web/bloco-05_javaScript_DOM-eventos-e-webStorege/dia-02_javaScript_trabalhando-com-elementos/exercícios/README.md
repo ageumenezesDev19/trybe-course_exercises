@@ -1,3 +1,4 @@
+## Português 🇧🇷 
 # Agora a prática
 
 ## Aprofunde meu conhecimento
@@ -110,3 +111,120 @@ s
 5. Troque a cor de fundo do elemento pai da ```section``` criada no passo 3 (aquela que possui a classe ```center-content```) para a cor verde;
 
 6. Remova os dois últimos elementos ( ```nove``` e ```dez``` ) da lista criada no passo 8.
+
+___
+
+## English 🇺🇸
+
+# Now the practice
+
+## Deepen my knowledge
+
+### Before starting, I created an HTML file and copied the code below:
+<br>
+
+###### ```HTML```
+```Html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercise 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // PUT YOUR CODE HERE
+    </script>
+  </body>
+</html>
+```
+
+### The purpose of these exercises is to put into practice what I've just learned about DOM. Therefore, I must do the exercises using only JavaScript code, which must be inserted between the tags ```<script>``` and ```</script>```. Then I followed the instructions:
+
+## Let's get to the exercises:
+
+
+1. Add the ```h1``` tag with the text ```Exercise 5.2 - JavaScript DOM``` as a child of the ```body``` tag;
+
+2. Add the ```main``` tag with the ```main-content``` class as a child of the ```body``` tag;
+
+3. Add the ```section``` tag with the ```center-content``` class as a child of the ```main``` tag created in step 2;
+
+4. Add the ```p``` tag as a child of the ```section``` created in step 3 and place some text;
+
+5. Add the ```section``` tag with the ```left-content``` class as a child of the ```main``` tag created in step 2;
+
+6. Add the ```section``` tag with the ```right-content``` class as a child of the ```main``` tag created in step 2;
+s
+7. Add an image with ```src``` set to the value ```https://picsum.photos/200``` and class ```small-image```. This element must be a child of the ```section``` created in step 5;
+
+8. Add an unordered list with the values ​​from 1 to 10 in words, that is, ```one```, ```two```, ```three```, ... as values ​​of the list. This list must be a child of the ```section``` created in step 6;
+
+9. Add 3 ```h3``` tags, all children of the ```main``` created in step 2.
+<br>
+<br>
+
+## Now that you've created a lot, let's make some changes and removals:
+
+1. Add the ```title``` class to the created ```h1``` tag;
+
+2. Add the ```description``` class to the 3 created ```h3``` tags;
+
+3. Remove the ```section``` created in step 5 (the one with the ```left-content``` class). Use the ```.removeChild()``` function;
+
+4. Center the ```section``` created in step 6 (the one with the ```right-content``` class). Tip: to center, just set the ```margin-right: auto``` of the ```section```;
+
+5. Change the background color of the parent element of the ```section``` created in step 3 (the one with the ```center-content``` class) to green;
+
+6. Remove the last two elements ( ```nine``` and ```ten``` ) from the list created in step 8.
