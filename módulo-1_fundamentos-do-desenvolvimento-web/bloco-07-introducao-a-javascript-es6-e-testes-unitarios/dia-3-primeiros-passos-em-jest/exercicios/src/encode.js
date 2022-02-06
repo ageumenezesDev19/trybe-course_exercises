@@ -24,6 +24,4 @@ const encode = (string) => {
   // -> substring(startIndex, endIndex) -> fonte: https://www.delftstack.com/pt/howto/javascript/javascript-remove-first-character-from-string/
 }
 
-console.log(encode('abcdefgh'));
-
 module.exports = encode;
