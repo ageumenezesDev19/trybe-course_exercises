@@ -1,6 +1,6 @@
 const techList = require('../src/techList');
 
-describe('Testa a função techList', () => {
+describe('Exercício 5:', () => {
   it('Testa se a função techList é definida', () => {
     expect(techList).toBeDefined();
   });
