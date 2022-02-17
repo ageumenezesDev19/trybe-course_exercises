@@ -107,8 +107,7 @@ console.log(biggestPrimeNumber(0, 50)); // 47
 // ----------------------------------------------------------------
 
 // English 🇺🇸
-
-/* 1- The factorial is the multiplication of a natural number by it's predecessors,
+/* 1- The factorial is the multiplication of a natural number by its predecessors,
 except zero. For example: */
 
 /* The factorial is represented by the sign !
@@ -149,6 +148,8 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 // Write two algorithms: one that returns the largest word in this array and one that returns the smallest.
 // Consider the number of characters in each word.
 
+let array = ['java', 'javascript', 'python', 'html', 'css'];
+
 const biggestWord = (theArray) => {
     let bigger = '';
     for (let i = 0; i < theArray.length; i += 1) {
@@ -164,6 +165,22 @@ const biggestWord = (theArray) => {
 }
 
 console.log(biggestWord(array)); // javascript
+
+const smallestWord = (theArray) => {
+    let smaller = `isn't the ${biggestWord(theArray)}`;
+    for (let i = 0; i < theArray.length; i += 1) {
+        for (let s = 1; s < theArray.length; s += 1) {
+            if (theArray[i].length < theArray[s].length
+                && theArray[i].length < smaller.length) {
+                smaller = theArray[i];
+            }
+        }
+    }
+
+    return smaller;
+}
+
+console.log(smallestWord(array));
 
 /* 4- A prime number is one that is divisible only by 1 and itself. Knowing this, write an algorithm
 that returns the largest prime number between 0 and 50.
