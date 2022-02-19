@@ -86,7 +86,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 10-3: _Jest - Simulando comportamentos_
 - [ ] 10-4: _[Projeto - Jest Assí­ncrono e Mocking]()_
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end
 
 ##### Bloco 11: Introdução - React
 
@@ -252,7 +252,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 35-1: _Aprendendo Python_
 - [ ] 35-2: _Testes e Exceções_
 - [ ] 35-3: _Entrada e Saída de dados_
-- [ ] 36-4: _Entrada e Saí­da de dados_
+- [ ] 36-4: _Entrada e Saída de dados_
 - [ ] 35-5: _[Projeto - Tech news]()_
 
 # [...]
@@ -266,7 +266,7 @@ _"Trybe is a school of the future for anyone who wants to improve their lives an
 
 The program has more than 1,500 hours of classroom and online classes, covers introduction to software development, front-end, back-end, computer science, software engineering, agile methodologies and behavioral skills.
 
-## Web Development Fundamentals :white_check_mark:
+## Web Development Fundamentals :hourglass_flowing_sand:
 
 ##### Block 1: Introduction - Unix & Shell :white_check_mark:
 
@@ -295,7 +295,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [X] 4-4: _JavaScript - Objects and Functions_
 - [X] 4-5: _[Project - Playground Functions]()_
 
-##### Block 5: Introduction - JavaScript - Projects
+##### Block 5: Introduction - JavaScript - Projects :hourglass_flowing_sand:
 
 - [X] 5-1: _JavaScript - DOM and selectors_
 - [X] 5-2: _JavaScript - Working with elements_
@@ -344,7 +344,7 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [ ] 10-3: _Jest - Simulating behavior_
 - [ ] 10-4: _[Project - Asynchronous Jest and Mocking]()_
 
-## Front-end development :hourglass_flowing_sand:
+## Front-end development
 
 ##### Block 11: Introduction - React
 
