@@ -76,5 +76,3 @@ const checkIfElse = (age) => {
   // pois torna o seu código truncado e difícil de ler, tirando todo o sentido de um
   // operador cujo objetivo é facilitar a sua vida e a da pessoa que lerá seu código
   // no futuro!
-
-
