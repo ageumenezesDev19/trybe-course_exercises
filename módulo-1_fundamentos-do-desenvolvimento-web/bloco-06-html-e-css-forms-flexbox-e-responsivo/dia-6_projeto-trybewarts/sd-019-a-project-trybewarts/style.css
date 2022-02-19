@@ -1,0 +1,386 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html , body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(90, 110, 148);
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header h1 {
+  color: white;
+  font-size: 50px;
+  font-family: chaloops, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.trybewarts-header-logo {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login input {
+  margin-right: 1%;
+  font-size: 20px;
+  height: 40px;
+  width: 40%;
+}
+
+main {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+main form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.containerRadio input:nth-child( n+1 ) {
+  margin-top: 15px;
+}
+
+main #evaluation-form .container input , main #evaluation-form #input-email {
+  font-size: 20px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container #input-lastname {
+  margin-left: 10px;
+}
+
+#house {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+  height: 29px;
+  color: gray;
+}
+
+#label-family {
+  font-size: 20px;
+  color: gray;
+  padding-top: 10px;
+}
+
+.containerRadio {
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  width: 50%;
+}
+
+.containerOptions {
+  display: flex;
+  flex-direction: row;
+}
+
+.containerRate {
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.containerAgreement {
+  display: flex;
+  margin-top: 10px;
+  color: gray;
+  font-size: 20px;
+  align-items: center;
+}
+
+.containerAgreement label {
+  padding-left: 5px;
+}
+
+#submit-btn {
+  width: 15%;
+  box-shadow: rgb(197, 197, 197) 4px 4px;
+  border-radius: 5px;
+  background-color: rgb(50, 167, 145);
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+#submit-btn:active {
+  color: black;
+  box-shadow: black 1px 1px;
+  background-color: white;
+}
+
+#submit-btn:hover {
+  padding: 4px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: dodgerblue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer p {
+  color: white;
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: medium;
+}
+
+#formularioCadastro {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  background-color: rgb(185, 255, 222);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  height: 500px;
+  background-color: rgb(171, 214, 251);
+  border-radius: 30px;
+  margin-top: 100px;
+}
+
+#label-content {
+  font-size: 120%;
+  margin-bottom: 10px;
+}
+
+#div-checkbox {
+  color: gray;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#div-textarea {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  color: gray;
+  font-size: 20px;
+}
+
+#paragrafoForms {
+  color: gray;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+/* Início da parte dedicada a versão mobile e a responsividade od site */
+
+@media screen and ( max-width : 1250px ) {
+
+  #trybewarts-forms-logo {
+    display: flex;
+    height: 250px;
+    background-color: rgb(171, 214, 251);
+    border-radius: 30px;
+    margin-top: 100px;
+  }
+}
+
+@media screen and ( min-width : 551px ) and ( max-width : 922px ) {
+
+  #formularioCadastro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #trybewarts-forms-logo {
+    display: flex;
+    height: 250px;
+    background-color: rgb(171, 214, 251);
+    border-radius: 30px;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #evaluation-form {
+    display: flex;
+    width: 100%;
+    background-color: rgb(185, 255, 222);
+    padding: 20px;
+  }
+
+  #submit-btn {
+    width: 40%;
+    box-shadow: rgb(197, 197, 197) 4px 4px;
+    border-radius: 5px;
+    background-color: rgb(50, 167, 145);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  html , body {
+    height: 107%;
+    width: 100%;
+  }
+}
+
+@media screen and ( max-width : 860px ) {
+
+  .header {
+    display: flex;
+    background-color: rgb(50, 167, 145);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  #trybewarts-header-title {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    display: none;
+  }
+}
+
+@media screen and ( max-width : 551px ) {
+
+  #formularioCadastro {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .trybewarts-login {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .trybewarts-login input {
+    font-size: 20px;
+    height: 40px;
+    width: 80%;
+    margin-top: 5px;
+  }
+
+  #buttonSubmit {
+    width: 80%;
+    margin-top: 5px;
+    height: 40px;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+
+  #trybewarts-forms-logo {
+    display: flex;
+    height: 250px;
+    background-color: rgb(171, 214, 251);
+    border-radius: 30px;
+    margin-top: 0;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  #evaluation-form {
+    margin-top: -45px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(185, 255, 222);
+    padding: 20px;
+  }
+
+  #submit-btn {
+    width: 40%;
+    box-shadow: rgb(197, 197, 197) 4px 4px;
+    border-radius: 5px;
+    background-color: rgb(50, 167, 145);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .containerOptions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container #input-lastname {
+    margin-left: 0;
+  }
+
+  #house {
+    margin-top: 10px;
+    margin-left: 0;
+    font-size: 20px;
+    height: 29px;
+    color: gray;
+  }
+
+  html , body {
+    height: 122%;
+    width: 100%;
+  }
+
+  footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    margin-top: -20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
