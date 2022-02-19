@@ -287,23 +287,23 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [X] 3-4: _Semantic HTML_
 - [X] 3-5: _[Project - HTML & CSS]()_
 
-##### Block 4: Introduction - JavaScript :hourglass_flowing_sand:
+##### Block 4: Introduction - JavaScript :white_check_mark:
 
 - [X] 4-1: _JavaScript - First steps_
-- [ ] 4-2: _JavaScript - Array and For_ loop
-- [ ] 4-3: _JavaScript - Programming Logic and Algorithms_
-- [ ] 4-4: _JavaScript - Objects and Functions_
-- [ ] 4-5: _[Project - Playground Functions]()_
+- [X] 4-2: _JavaScript - Array and For_ loop
+- [X] 4-3: _JavaScript - Programming Logic and Algorithms_
+- [X] 4-4: _JavaScript - Objects and Functions_
+- [X] 4-5: _[Project - Playground Functions]()_
 
 ##### Block 5: Introduction - JavaScript - Projects :hourglass_flowing_sand:
 
-- [ ] 5-1: _JavaScript - DOM and selectors_
-- [ ] 5-2: _JavaScript - Working with elements_
-- [ ] 5-3: _JavaScript - Events_
+- [X] 5-1: _JavaScript - DOM and selectors_
+- [X] 5-2: _JavaScript - Working with elements_
+- [X] 5-3: _JavaScript - Events_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Project - Meme Generator]()_
-- [ ] 5-6: _[Project - Pixel Art]()_
-- [ ] 5-7: _[Project - To-do list]()_
+- [X] 5-6: _[Project - Pixel Art]()_
+- [X] 5-7: _[Project - To-do list]()_
 - [ ] 5-7: _[Project - Guess the Color]()_
 - [ ] 5-7: _[Project - Mysterious Letter]()_
 
