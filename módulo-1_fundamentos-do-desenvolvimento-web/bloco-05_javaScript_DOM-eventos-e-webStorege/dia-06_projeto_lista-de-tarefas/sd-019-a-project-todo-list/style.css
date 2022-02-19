@@ -1,0 +1,159 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-image: url('/images/a-book-g3172d6f7e_1920\(2\).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(32 , 47 , 56);
+} /* [background-image: url()], Font: https://www.devmedia.com.br/css-background/38313 */
+
+#all-content {
+  background-color: lightblue;
+  padding-bottom: 10px;
+  width: 600px;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  box-shadow: 2px 2px 10px black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-top: 100px;
+}
+
+header h1 {
+  font-family: active, sans-serif;
+  font-weight: 400;
+  font-size: 65px;
+  font-style: normal;
+}
+
+header p {
+  margin-top: 10px;
+  font-family: ff-tisa-sans-web-pro, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#section-1 {
+  display: flex;
+  justify-content: center;
+}
+
+#section-1 div {
+  margin-top: 25px;
+}
+
+#criar-tarefa {
+  margin-left: 15px;
+  padding: 2px;
+  padding-right: 6px;
+  border-radius: 8px;
+  font-family: collector-comic, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  background-color: rgb(90 , 255 , 200);
+}
+
+#criar-tarefa:active {
+  background-color: rgb(69 , 207 , 161);
+}
+
+#texto-tarefa {
+  padding: 5px;
+  width: 285px;
+  border-radius: 8px;
+}
+
+#section-2 {
+  margin-top: 33px;
+}
+
+#lista-tarefas {
+  width: 500px;
+  background-color: darkturquoise;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.the-task {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  padding-left: 5px;
+  border-radius: 10px;
+  width: 400px;
+  font-family: adobe-handwriting-tiffany, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+  line-height: 1.5;
+}
+
+.the-task:hover {
+  background-color: rgb(21 , 136 , 175);
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+#section-3 {
+  display: flex;
+  justify-content: center;
+}
+
+#apaga-tudo {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+
+#apaga-tudo:active {
+  background-color: rgb(218 , 3 , 3);
+}
+
+#remover-finalizados {
+  padding: 5.5px;
+  border-radius: 9px;
+  background-color: coral;
+  color: white;
+}
+
+#remover-finalizados:active {
+  background-color: rgb(200 , 97 , 60);
+}
+
+#remover-selecionado {
+  padding-left: 13px;
+  padding-right: 13px;
+  border-radius: 9px;
+  background-color: brown;
+  color: white;
+}
+
+#remover-selecionado:active {
+  background-color: rgb(93 , 24 , 24);
+}
+
+.arrows {
+  font-size: 20px;
+  padding-bottom: 5px;
+  border-radius: 7px;
+  background-color: rgb(253 , 253 , 100);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.arrows:active {
+  background-color: rgb(211 , 211 , 49);
+}
