@@ -1,0 +1,6 @@
+1- Primeiro digita a URL
+2- Browser se comunica com o servidor DNS
+3- Servidor DNS devolve o IP
+4- Browser solicita informações ao servidor do site pesquisado utilizando o protocolo HTTP
+5- Servidor resolve a solicitação e envia de volta a reposta pro browser
+6- O browser renderiza a página
