@@ -1,0 +1,37 @@
+
+h1, p {
+    text-align: center;
+}
+ol {
+    padding-left: 30%;
+}
+
+li {
+    padding: 1%;
+    margin-right: 57.5%;
+    margin-left: 14%;
+    list-style: none;
+    text-align: center;
+}
+
+ol {
+    background-color: aquamarine;
+}
+
+li:hover {
+    background-color: green;
+    color: coral;
+}
+li:active {
+    color: white;
+    font-family: fantasy;
+}
+
+#motivos {
+    position: absolute;
+    width: 100%;
+    left: -8%;
+    padding-left: 30%;
+    top: 230px;
+    background-color: aqua;
+}
