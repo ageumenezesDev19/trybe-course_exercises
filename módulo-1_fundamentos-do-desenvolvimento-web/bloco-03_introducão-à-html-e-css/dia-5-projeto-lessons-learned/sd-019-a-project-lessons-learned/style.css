@@ -1,0 +1,272 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0%;
+}
+header {
+    position: fixed;
+    top: 0%;
+    left: 35%;
+    background-color: rgb(20, 179, 20);
+    border-radius: 10px;
+    color: white;
+    width:max-content;
+    padding-left: 1%;
+    padding-right: 1%;;
+    z-index: 5;
+    margin: 0px
+}
+#link1_home {
+    left: 46%;
+    top: 0.5%;
+    position: absolute;
+}
+#link2_eu {
+    position: absolute;
+    top: 40%;
+    left: 9%;
+}
+#link3_decolagem {
+    position: absolute;
+    top: 97%;
+    left: 5%;
+}
+#minha-foto_e_nome {
+    position: absolute;
+    left: 1%;
+    z-index: 1;
+}
+#Imagem_de_capa {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    z-index: 1;
+}
+.meu_nome1 {
+    position: absolute;
+    left: 3%;
+    top: 149%;
+    width: 16%;
+    text-align: center;
+    border-width: medium;
+    border-radius: 7px;
+    display: block;
+    font-size: 1.5vw;
+    color: rgb(70, 70, 70);
+}
+/* Unidade 'vw' (Fonte -> https://www.ti-enxame.com/pt/css/css-puro-para-tornar-o-tamanho-da-fonte-responsivo-com-base-na-quantidade-dinamica-de-caracteres/1071707579/) 
+Proporciona dimenções de texto que são relativas à porta de exibição.*/
+.meu_nome2_copy_background_opacity {
+    position: absolute;
+    left: 3%;
+    top: 149%;
+    background-color: rgb(98, 241, 32);
+    width: 16%;
+    text-align: center;
+    border-width: medium;
+    border-radius: 7px;
+    display: block;
+    opacity: 75%;
+    font-size: 1.5vw;
+    color: rgb(70, 70, 70);
+}
+#minha_foto {
+    width: 22.5%;
+    position: relative;
+    top: 230px;
+    margin: 0%;
+    border-radius: 10%;
+}
+.lado-direito {
+    position: absolute;
+    display: block;
+    left: 54%;
+    top: 149%;
+    height: 25%;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 110%;
+    text-align: center;
+    z-index: 4;
+    line-height: 150%;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 0.1%;
+    float: right;
+    display: inline;
+} 
+/*line-height -> Fonte: https://cursos.alura.com.br/forum/topico-espacamento-entre-as-linhas-do-texto-57714?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ylTQmoDwQYYtIjk3rFuXs9hf0LJ7d7szFGwZOo0ouMErmxW6s5RWuYaAgEXEALw_wcB*/
+.lado-esquerdo {
+    position: absolute;
+    left: 8%;
+    top: 144.6%;
+    font-size: large;
+    font-family: 'Space Mono', monospace;
+    z-index: 3;
+    text-align: center;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 35px;
+    padding: 1%;
+    float: left;
+    display: inline;
+}
+#título_Skills-a-aprender {
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    left: 25%;
+    top: 14%;
+    font-size: 130%;
+    font-style: oblique;
+    z-index: 4;
+}
+#licoes_a_aprender {
+    position: absolute;
+    left: 25%;
+    font-size: 120%;
+    top: 24%;
+    font-family: 'Comfortaa', cursive;
+    z-index: 4;
+}
+#divisão1 {
+    position: absolute;
+    display: block;
+    border: 2px black solid;
+    left: 1%;
+    top: 1%;
+    height: 114%;
+    z-index: 4;
+}
+#divisão2 {
+    position: absolute;
+    display: block;
+    border: 2px black solid;
+    left: 120%;
+    top: 1%;
+    height: 114%;
+    z-index: 4;
+}
+#título_Skills-aprendidas {
+    position: absolute;
+    font-family: 'Comfortaa', cursive;
+    top: 14%;
+    left: 4%;
+    font-size: 130%;
+    font-style: oblique;
+    z-index: 4;
+}
+#licoes_aprendidas {
+    font-size: 120%;
+    position: absolute;
+    display: block;
+    top: 28.5%;
+    left: 4%;
+    width: 15%;
+    margin: 0%;
+    font-family: 'Comfortaa', cursive;
+    z-index: 4;
+}
+#table {
+    position: absolute;
+    left: 55%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Secular One', sans-serif;
+    display: block;
+    width: 29%;
+    border: 5px black solid;
+    size: 30%;
+}
+#divisão3 {
+    border: 3px black solid;
+    position: relative;
+    width: 19.4%;
+    left: 91%;
+    top: 59%;
+
+}
+#title_of_table {
+    font-size: 150%;
+}
+#Listas {
+    background-color: aquamarine;
+    padding: 9%;
+    position: absolute;
+    top: 82%;
+    width: 82%;
+    height: 25.6%;
+}
+#links {
+    position: absolute;
+    display: inline;
+    width: 40%;
+    height: 11%;
+    left: 41%;
+    top: 185%;
+}
+#logo-linkedin {
+    width: 10%;
+    float: left;
+    padding: 1.9%;
+}
+#logo-trybe {
+    width: 14%;
+    float: left;
+    
+}
+#logo_github {
+    width: 10%;
+    padding: 1.9%;
+}
+
+/*#direitos-autorais {
+    position: absolute;
+    top: 185%;
+    padding: 2%;
+    left: 0.001%;
+}
+*/
+
+#home {
+    position: fixed;
+    z-index: 5;
+    width: 3%;
+    left: 95%;
+    top: 30%;
+    background-color:rgb(255, 255, 255);
+    padding: 0.5%;
+    border-radius: 10px;
+}
+#Developer {
+    position: fixed;
+    z-index: 5;
+    width: 3%;
+    left: 95%;
+    top: 39%;
+    background-color:rgb(255, 255, 255);
+    padding: 0.5%;
+    border-radius: 10px;
+}
+#Foguete_do_aprendizado {
+    position: fixed;
+    z-index: 5;
+    width: 3%;
+    left: 95%;
+    top: 48%;
+    background-color:rgb(255, 255, 255);
+    padding: 0.5%;
+    border-radius: 10px;
+}
+#Background_block {
+    position: fixed;
+    display: block;
+    width: 5%;
+    height: 29%;
+    left: 94.45%;
+    top: 28.5%;
+    z-index: 4;
+    background-color: rgb(24, 70, 172);
+    border-radius: 20px;
+}
+#sem_estilo {
+    list-style: none;
+}
+/*(list-style: none;) fonte: https://qastack.com.br/programming/8289805/getting-rid-of-bullet-points-from-ul*/
