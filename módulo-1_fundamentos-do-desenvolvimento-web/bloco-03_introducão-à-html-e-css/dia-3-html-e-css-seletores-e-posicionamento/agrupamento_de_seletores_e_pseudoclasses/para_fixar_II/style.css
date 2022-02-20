@@ -1,0 +1,65 @@
+h1, p {
+    text-align: center;
+}
+
+div {
+    padding: 0.001%;
+    text-align: center;
+    text-shadow: black 2px 1px 2px;
+}
+
+div:nth-of-type(1) {
+    color: aqua;
+    font-style: italic;
+}
+
+div:nth-of-type(1):hover {
+    background-color: aqua;
+    border: 5px rgb(76, 0, 255) solid;
+}
+
+div:nth-of-type(2) {
+    color: rgb(255, 0, 106);
+}
+
+div:nth-of-type(2):hover {
+    background-color: rgb(255, 0, 106);
+    border: 5px rgb(76, 0, 255) solid;
+}
+
+div:nth-of-type(3) {
+    color: rgb(115, 255, 0);
+    font-size: 1.3em;
+    font-style: italic;
+}
+
+div:nth-of-type(3):hover {
+    background-color: rgb(115, 255, 0);
+    border: 5px rgb(76, 0, 255) solid;
+}
+
+div:nth-of-type(4) {
+    color: rgb(162, 0, 255);
+}
+
+div:nth-of-type(4):hover {
+    background-color: rgb(162, 0, 255);
+    border: 5px rgb(76, 0, 255) solid;
+}
+
+div:nth-of-type(5) {
+    color: rgb(108, 255, 194);
+    font-style: italic;
+}
+
+div:nth-of-type(5):hover {
+    background-color: rgb(108, 255, 194);
+    border: 5px rgb(76, 0, 255) solid;
+}
+
+h3:active {
+    color: rgb(255, 255, 255);
+}
+
+/* Font1 (nth-of-type()): (TamirisShigaki)https://github.com/TamirisShigaki/trybe-exercicios/blob/main/fundamentos/bloco-3-introducao-a-html-e-css/dia-3-html-css-seletores-e-posicionamento/style4.css
+   Font2 (nth-of-type()): https://developer.mozilla.org/pt-BR/docs/Web/CSS/:nth-of-type */
