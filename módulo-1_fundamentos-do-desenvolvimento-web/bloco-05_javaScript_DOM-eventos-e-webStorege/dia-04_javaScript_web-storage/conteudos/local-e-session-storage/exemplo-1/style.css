@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  background: rgb(139, 181, 230);
+  border-radius: 20px;
+  padding: 1%;
+}
