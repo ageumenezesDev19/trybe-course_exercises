@@ -1,6 +1,6 @@
 ## Português 🇧🇷
 
-# Projeto - Trybewarts
+# Projeto - Trybewarts 1
 
 ## Projeto em dupla.
 
@@ -10,7 +10,7 @@
 
 ## English 🇺🇸
 
-# Project - Trybewarts
+# Project - Trybewarts 1
 
 ## Duo project.
 
