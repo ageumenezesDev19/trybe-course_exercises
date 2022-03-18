@@ -104,11 +104,6 @@ const createMenu = (foodAndDrink) => {
   return objectRestaurant;
 };
 
-/* Eu estava sem entender direito a estrutura do código que deveria ser feita,
-então dei uma olhada no projeto da tiemifaustino para 
-entender melhor e fiz do meu próprio jeito. 
-Link: https://github.com/tryber/sd-019-a-project-js-unit-tests/tree/tiemi-faustino-js-unit-tests */
-
 // ----------------------------------------------------------------
 
 // Testes usando o console.log();
