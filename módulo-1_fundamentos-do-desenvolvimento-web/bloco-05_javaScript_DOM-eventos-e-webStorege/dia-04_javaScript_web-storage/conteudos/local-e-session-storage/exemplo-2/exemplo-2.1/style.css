@@ -1,0 +1,11 @@
+header {
+  margin-left: 50px;
+}
+
+section {
+  margin-left: 60px;
+  background: rgb(100, 237, 146);
+  width: 800px;
+  padding: 30px;
+  border-radius: 20px;
+}
