@@ -9,6 +9,4 @@ function getOldestFromFirstSpecies(id) {
   return [name, sex, age];
 }
 
-// Fonte de inspiração: https://github.com/tryber/sd-19-a-project-zoo-functions/tree/eduardo-gomes-zoo-functions-project
-
 module.exports = getOldestFromFirstSpecies;

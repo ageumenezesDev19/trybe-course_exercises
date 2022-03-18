@@ -22,9 +22,5 @@ function getRelatedEmployees(managerId) {
 }
 
 // console.log(getRelatedEmployees('fdb2543b-5662-46a7-badc-93d960fdc0a8'));
-/* Utilizei o código do repositório de "eduardo-gomes" para entender como exatamente
-  identificar o gerente e porque o meu código estava dando erro.
-
-  Font: https://github.com/tryber/sd-19-a-project-zoo-functions/tree/eduardo-gomes-zoo-functions-project */
 
 module.exports = { isManager, getRelatedEmployees };

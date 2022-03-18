@@ -17,6 +17,4 @@ function countAnimals(animal) {
 
 // console.log(countAnimals({ specie: 'tigers' }));
 
-// Inspiration font: https://github.com/tryber/sd-19-a-project-zoo-functions/tree/eduardo-gomes-zoo-functions-project
-
 module.exports = countAnimals;

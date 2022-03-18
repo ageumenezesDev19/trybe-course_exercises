@@ -54,7 +54,6 @@ function getSchedule(scheduleTarget) {
 
 // console.log(getSchedule('Saturday'));
 
-// Fonte de inspiração: https://github.com/tryber/sd-19-a-project-zoo-functions/tree/eduardo-gomes-zoo-functions-project
-// Pude entender este código pois, além de estuda-lo, pude fazer um 1:1 com o Roberval para me ajudar no entendimento.
+// Pude fazer um 1:1 com o Roberval para me ajudar no entendimento e poder então desenvolver este código.
 
 module.exports = getSchedule;
