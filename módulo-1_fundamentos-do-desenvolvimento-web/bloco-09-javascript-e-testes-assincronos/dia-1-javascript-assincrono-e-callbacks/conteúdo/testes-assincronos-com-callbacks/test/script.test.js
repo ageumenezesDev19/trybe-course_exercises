@@ -1,3 +1,5 @@
+const asyncSum = require('../src/script');
+
 // Testes Assíncronos com Callbacks
 
 // O exemplo abaixo gera um falso-positivo:
@@ -63,13 +65,6 @@ test('Não deveria passar!', (done) => {
 /* Vamos a mais um exemplo para fixação, desta vez você irá implementar uma função que espera
 um tempo e retorna a soma de dois números:
 */ 
-
-const asyncSum = (a, b, callback) => {
-  setTimeout(() => {
-    const result = a + b;
-    callback(result);
-  }, 500);
-};
 
 test('Testando asyncSum, soma 5 mais 10', (done) => {
   asyncSum(5, 10, (result) => {

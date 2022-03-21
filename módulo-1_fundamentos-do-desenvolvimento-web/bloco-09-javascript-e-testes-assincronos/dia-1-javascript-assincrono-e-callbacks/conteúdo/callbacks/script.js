@@ -28,7 +28,7 @@ const despesaMensal = (renda, despesas, callback) => {
     Saldo: R$${saldoFinal},00 `);
 };
 
-/* callback é, basicamente, uma função passada por parâmetro para outra função.
+/* callback é, basicamente, uma função passada como parâmetro para outra função.
 Neste exemplo, o parâmetro callback receberá uma função que retornará o quanto gastamos no mês,
 ou seja, nossa função callback irá realizar a lógica necessária para somar todos os gastos
 contidos no array de objetos despesas e retornará este valor para a constante despesaTotal. */
@@ -130,6 +130,8 @@ const getUser = (param) => {
 // Chamada/execução da função getUser, que vai receber como parâmetro nossa função userFullName.
 getUser(userFullName);
 
+console.log(getUser(userFullName));
+
 /* Vamos ao passo a passo:
 Definimos a função userFullName ;
 Definimos a função getUser
@@ -187,9 +189,9 @@ const getUser = (param) => {
     // Retorne a `callback` passada como parâmetro na função `getUser`
     // Dica: você pode manter o `console.log()`
     console.log(param(user));
+    return param(user);
   }, delay());
 };
 
 getUser(userFullName); // deve imprimir "Hello! My name is Ivan Ivanovich" depois de um certo tempo
 getUser(userNationality); // deve imprimir "Ivan is Russian" depois de um certo tempo
-
