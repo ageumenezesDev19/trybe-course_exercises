@@ -1,0 +1,15 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "# Agora, a prática ## English 🇺🇸",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ageu",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
