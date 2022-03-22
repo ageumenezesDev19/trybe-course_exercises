@@ -1,0 +1,42 @@
+* {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background-color: rgb(255, 223, 160);
+}
+
+main {
+  display: flex;
+  margin: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+article {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  margin-top: 15px;
+  display: flex;
+}
+
+ul li {
+  margin: 20px;
+  font-size: 20px;
+  list-style: none;
+}
