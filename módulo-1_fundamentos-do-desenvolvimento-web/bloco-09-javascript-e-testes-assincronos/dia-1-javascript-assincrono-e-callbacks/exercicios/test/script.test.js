@@ -40,5 +40,3 @@ describe('1 - Verifica a chamada da callback de uma função uppercase:', () => 
         });
     });
 });
-
-
