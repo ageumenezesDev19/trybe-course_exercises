@@ -1,0 +1,15 @@
+{
+  "name": "fetch-api",
+  "version": "1.0.0",
+  "description": "# Fetch API",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ageu Menezes Costa",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
