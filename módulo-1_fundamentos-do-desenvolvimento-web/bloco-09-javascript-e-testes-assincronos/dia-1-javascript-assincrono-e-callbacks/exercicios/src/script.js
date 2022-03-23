@@ -33,9 +33,9 @@ const jupiter = {
     },
 };
 
-console.log(planetDistanceFromSun(mars)); // A = Mars
-console.log(planetDistanceFromSun(venus)); // B = Venus
-console.log(planetDistanceFromSun(jupiter)); // C = Jupiter
+// console.log(planetDistanceFromSun(mars)); // A = Mars
+// console.log(planetDistanceFromSun(venus)); // B = Venus
+// console.log(planetDistanceFromSun(jupiter)); // C = Jupiter
 
 // 2 - Agora, dado o código abaixo, qual a ordem de finalização de execução das linhas comentadas?
 
@@ -73,9 +73,9 @@ const func2 = () => {
         },
     };
 
-    console.log(planetDistanceFromSun(mars)); // A = Mars
-    setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B = Jupiter
-    setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C = Venus
+    // console.log(planetDistanceFromSun(mars)); // A = Mars
+    // setTimeout(() => console.log(planetDistanceFromSun(venus)), 3000); // B = Jupiter
+    // setTimeout(() => console.log(planetDistanceFromSun(jupiter)), 2000); // C = Venus
 }
 
 func2();
@@ -92,8 +92,8 @@ const getPlanet = () => {
                 measurementUnit: "kilometers",
             },
         };
-        console.log("Returned planet: ", mars);
-    }, 4000);
+        // console.log("Returned planet: ", mars);
+    }, 2000);
 };
 
 getPlanet(); // imprime Marte depois de 4 segundos
@@ -115,12 +115,12 @@ const getMarsTemperature = () => {
 const sendMarsTemperature = (temperature, delay) => {
     setTimeout(() => {
         const message = `Mars temperature is: ${temperature} degree Celsius`;
-        console.log(message);
+        // console.log(message);
         return message;
     }, delay);
 }
 
-sendMarsTemperature(getMarsTemperature(), messageDelay()); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
+// sendMarsTemperature(getMarsTemperature(), messageDelay()); // imprime "Mars temperature is: 20 degree Celsius", por exemplo
 
 /* 8 - Para o próximo exercício, você vai sentir na pele o primeiro dia de um treinador Pokémon!
 No laboratório do Professor Carvalho, você é informado de que existem três
@@ -149,10 +149,10 @@ const pokemons = [
   
   function getPokemonDetails(filter, callback) {
     setTimeout(() => {
-      if (pokemons.find(filter) === undefined) {
+      if (pokemons.find((poke) => poke.name !== filter)) {
         return callback(new Error('Não temos esse pokémon para você :('), null);
       }
-      const pokemon = pokemons.find(filter);
+      const pokemon = pokemons.find(({ name }) => name === filter);
   
       const { name, type, ability } = pokemon;
   
@@ -161,9 +161,7 @@ const pokemons = [
       callback(null, messageFromProfOak);
     }, 2000);
   }
-  
-  getPokemonDetails(); // Continuar mais tarde ...
-  
+
   module.exports = {
     getPokemonDetails,
   };
