@@ -1,0 +1,15 @@
+{
+  "name": "exercicios",
+  "version": "1.0.0",
+  "description": "# Agora, a prática",
+  "main": "apiScript.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ageu Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
