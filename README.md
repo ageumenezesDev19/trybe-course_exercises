@@ -65,7 +65,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 7-3: _Testes unitários em JavaScript_
 - [X] 7-4: _[Projeto - JavaScript Testes Unitários]()_
 
-##### Bloco 8: JavaScript ES6
+##### Bloco 8: JavaScript ES6 :white_check_mark:
 
 - [X] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
 - [X] 8-2: _JavaScript ES6 - Higher Order Functions - map e filter_
