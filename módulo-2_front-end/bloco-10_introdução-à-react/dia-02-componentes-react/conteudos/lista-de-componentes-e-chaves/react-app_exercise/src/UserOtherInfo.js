@@ -3,9 +3,9 @@ import './UserOtherInfo.css';
 
 class UserOtherInfo extends React.Component {
     render() {
-        const { email, id, key } = this.props
+        const { email, id } = this.props
 
-        return ( <span className="other-info" key={ key }>{email} {id}</span> )
+        return ( <li className="other-info" key={`${Math.floor(Math.random() * 1000)}`}>{email} {id}</li> )
     }
 }
 

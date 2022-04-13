@@ -41,11 +41,11 @@ class Table extends React.Component {
         //   };
 
         return (
-            users.map((user, index) => (
-                <div>
-                    <UserName name={user.name} key={ index }/>
-                    <UserOtherInfo email={user.email} id={user.id} key={ index + 1 }/>
-                </div>
+            users.map((user) => (
+                <ol>
+                    <UserName name={user.name} />
+                    <UserOtherInfo email={user.email} id={user.id} />
+                </ol>
             ))
         )
     }
