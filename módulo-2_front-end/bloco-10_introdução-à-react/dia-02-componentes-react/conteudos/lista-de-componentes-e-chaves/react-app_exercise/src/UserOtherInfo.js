@@ -5,7 +5,7 @@ class UserOtherInfo extends React.Component {
     render() {
         const { email, id } = this.props
 
-        return ( <span className="other-info">{email} {id}</span> )
+        return ( <li className="other-info" key={`${Math.floor(Math.random() * 1000)}`}>{email} {id}</li> )
     }
 }
 
