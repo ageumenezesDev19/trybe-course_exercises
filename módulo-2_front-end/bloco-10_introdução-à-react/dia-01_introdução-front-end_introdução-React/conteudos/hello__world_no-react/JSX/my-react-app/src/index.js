@@ -1,14 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function tick() {
-  const element = (
-    <div>
-      <h1>Hello, world!</h1>
-      <h2>It is {new Date().toLocaleTimeString('pt', { hour12: true })}.</h2>
-    </div>
-  );
-  ReactDOM.render(element, document.getElementById('root'));
-}
+const nome = 'Jorge Maravilha';
+const classe = 'hello-class';
+const element = <h1 className={classe}>Hello, {nome}</h1>;
 
-setInterval(tick, 1000);
+ReactDOM.render(element, document.getElementById('root'));

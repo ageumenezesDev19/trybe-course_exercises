@@ -35,7 +35,4 @@ function getEmployeesCoverage(object) {
 
 // console.log(getEmployeesCoverage({ id: '4b40a139-d4dc-4f09-822d-ec25e819a5ad' }));
 
-// Verifiquei a lógica do código com o auxílio do projeto de eduardo-gomes:
-// link Font: https://github.com/tryber/sd-19-a-project-zoo-functions/tree/eduardo-gomes-zoo-functions-project
-
 module.exports = getEmployeesCoverage;
