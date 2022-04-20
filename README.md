@@ -73,33 +73,33 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [X] 8-5: _[Projeto - Zoo functions]()_
 
-##### Bloco 9: Assincronicidade & Callbacks
+##### Bloco 9: Assincronicidade & Callbacks :white_check_mark:
 
 - [X] 9-1: _JavaScript Assíncrono e Callbacks_
 - [X] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [X] 9-3: _Jest - Testes Assíncronos_
+- [X] 9-4: _[Projeto - Carrinho de Compras]()_
 
 ## Desenvolvimento Front-end
 
-##### Bloco 10: Introdução - React
+##### Bloco 10: Introdução - React :white_check_mark:
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Movie Cards Library]()_
+- [X] 10-1: _'Hello, world!' no React!_
+- [X] 10-2: _Componentes React_
+- [X] 10-3: _[Projeto - Sistema Solar]()_
 
 ##### Bloco 11: React
 
-- [ ] 12-1: _Components com estado_
-- [ ] 12-2: _Eventos e formulários no React_
-- [ ] 12-3: _[Projeto - Movie Cards Library Stateful]()_
+- [X] 11-1: _Componentes com estado e eventos_
+- [X] 11-2: _Formulários no React_
+- [ ] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: React
 
-- [ ] 13-1: _Melhorando o reuso de componentes: props.children e PropTypes_
-- [ ] 13-2: _Ciclo de vida de componentes em React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Projeto - Movie Cards Library CRUD]()_
+- [ ] 12-1: _Melhorando o reuso de componentes: props.children e PropTypes_
+- [ ] 12-2: _Ciclo de vida de componentes em React_
+- [ ] 12-3: _React Router_
+- [ ] 12-4: _[Projeto - Movie Cards Library CRUD]()_
 
 ##### Bloco 13: Metodologias Ágeis
 
@@ -325,34 +325,33 @@ The program has more than 1,500 hours of classroom and online classes, covers in
 - [X] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more_
 - [X] 8-5: _[Project - Zoo functions]()_
 
-##### Block 9: Asynchronicity & Callbacks
+##### Block 9: Asynchronicity & Callbacks :white_check_mark:
 
 - [X] 9-1: _Asynchronous JavaScript and Callbacks_
 - [X] 9-2: _Asynchronous JavaScript - Fetch API and async/await_
-- [ ] 9-3: _Jest - Asynchronous Tests_
-- [ ] 9-4: _[Project - Shopping Cart]()_
+- [X] 9-3: _Jest - Asynchronous Tests_
+- [X] 9-4: _[Project - Shopping Cart]()_
 
-## Front-end development
+## Frontend development
 
-##### Block 10: Introduction - React
+##### Block 10: Introduction - React :white_check_mark:
 
-- [ ] 11-1: _'Hello, world!' on React!_
-- [ ] 11-2: _React Components_
-- [ ] 11-3: _[Project - Movie Cards Library]()_
+- [X] 10-1: _'Hello, world!' in React!_
+- [X] 10-2: _React Components_
+- [X] 10-3: _[Project - Solar System]()_
 
 ##### Block 11: React
 
-- [ ] 12-1: _Components with status_
-- [ ] 12-2: _Events and forms in React_
-- [ ] 12-3: _[Project - Movie Cards Library Stateful]()_
+- [X] 11-1: _Components with state and events_
+- [X] 11-2: _Forms in React_
+- [ ] 11-3: _[Project - Tryunfo]()_
 
 ##### Block 12: React
 
-- [ ] 13-1: _Improving component reuse: props.children and PropTypes_
-- [ ] 13-2: _Component lifecycle in React_
-- [ ] 13-3: _React Router_
-- [ ] 13-4: _[Project - Movie Cards Library CRUD]()_
-
+- [ ] 12-1: _Improving the reuse of components: props.children and PropTypes_
+- [ ] 12-2: _Lifecycle of components in React_
+- [ ] 12-3: _React Router_
+- [ ] 12-4: _[Project - Movie Cards Library CRUD]()_
 ##### Block 13: Agile methodologies
 
 - [ ] 14-1: _Agile Methodologies_
