@@ -1,0 +1,21 @@
+body {
+  background: rgb(48, 48, 48);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.About-link {
+  color: green;
+}
+
+.About-link:hover {
+  color: white;
+}
